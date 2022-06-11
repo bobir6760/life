@@ -61,6 +61,7 @@ export default {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .natural-block {
   display: flex;
@@ -70,6 +71,7 @@ export default {
 }
 .natural-block__image img {
   width: 100%;
+  cursor: pointer;
 }
 .natural-block__title {
   font-size: 12px;

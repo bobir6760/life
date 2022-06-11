@@ -33,6 +33,7 @@ export default {
 }
 .stop-wrapper__image img {
   width: 100%;
+  cursor: pointer;
 }
 .stop-info {
   background: #f7f7f7;
@@ -47,14 +48,15 @@ export default {
   border-radius: 3px;
   border: none;
 }
-.stop-btn:active {
-  color: black;
-  background: white;
-  font-size: 20px;
+.stop-btn:hover {
+  transition: 0.5s;
+  background-color: #971717;
+  color: white;
 }
 .stop-info__title {
   font-size: 20px;
   padding-bottom: 30px;
+  cursor: pointer;
 }
 @media screen and (max-width: 768px) {
   .stop-wrapper {

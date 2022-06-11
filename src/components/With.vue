@@ -61,6 +61,7 @@ export default {
 }
 .with-info__title {
   font-size: 30px;
+  cursor: pointer;
 }
 .with-wrapper-card {
   display: flex;

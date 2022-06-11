@@ -26,9 +26,14 @@ export default {
   font-size: 24px;
   color: #6d6d6d;
   margin-top: 20px;
+  cursor: pointer;
+}
+.like-info__title:hover {
+  text-decoration: underline gainsboro;
 }
 .like-info__image {
   text-align: center;
+  cursor: pointer;
 }
 .like-info__image img {
   object-fit: contain;

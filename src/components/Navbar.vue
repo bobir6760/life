@@ -24,7 +24,6 @@
           </div>
           <button class="navbar-btn">buy now</button>
         </div>
-
         <div class="navbar-block">
           <div class="navbar-block__image">
             <img src="@/assets/img/Scarlett.png" alt="" />
@@ -63,6 +62,7 @@ export default {
 }
 .navbar-wrapper__image img {
   width: 100%;
+  cursor: pointer;
 }
 .navbar-wrapper__item {
   display: flex;
@@ -74,15 +74,29 @@ export default {
   display: flex;
   gap: 40px;
   color: white;
+  cursor: pointer;
 }
 .navbar-body {
   text-align: center;
   margin-top: 100px;
 }
+.navbar__item {
+  cursor: pointer;
+}
+.navbar__item:hover {
+  text-decoration: underline;
+}
+.navbar__subtitle {
+  cursor: pointer;
+}
+.navbar__subtitle:hover {
+  text-decoration: underline;
+}
 .navbar-body__title {
   color: white;
   font-size: 95px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .navbar-body__subtitle {
   font-size: 20px;
@@ -94,13 +108,13 @@ export default {
   font-size: 20px;
   cursor: pointer;
   margin-bottom: 50px;
-  border-radius: 3px;
+  border-radius: 5px;
   border: none;
 }
-.navbar-btn:active {
-  font-size: 25px;
-  background-color: black;
+.navbar-btn:hover {
+  background-color: #971717;
   color: white;
+  transition: 0.3s;
 }
 .navbar-block {
   display: flex;
@@ -109,16 +123,19 @@ export default {
 }
 .navbar-block__title {
   font-size: 20px;
+  cursor: pointer;
 }
 .navbar-block__subtitle {
   color: red;
   font-size: 20px;
+  cursor: pointer;
 }
 .navbar-block__item {
   padding-top: 64px;
 }
 .navbar-block__image img {
   width: 100%;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .navbar-body__title {

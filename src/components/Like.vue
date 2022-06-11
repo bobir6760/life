@@ -52,6 +52,10 @@ export default {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 60px;
+  cursor: pointer;
+}
+.like-wrapper__title:hover {
+  text-decoration: underline crimson;
 }
 .like-wrapper-card {
   display: flex;

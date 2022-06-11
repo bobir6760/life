@@ -28,10 +28,15 @@ export default {
 .works-info__subtitle {
   color: #6d6d6d;
   font-size: 18px;
+  cursor: pointer;
 }
 .works-title {
   color: #c0335d;
   font-size: 30px;
+  cursor: pointer;
+}
+.works-title:hover {
+  text-decoration: underline crimson;
 }
 @media screen and (max-width: 768px) {
   .works-info__subtitle {

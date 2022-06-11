@@ -78,10 +78,12 @@ export default {
 .finish-info__image {
   width: 100%;
   padding-bottom: 30px;
+  cursor: pointer;
 }
 .finish-info__title {
   color: #6d6d6d;
   padding-bottom: 30px;
+  cursor: pointer;
 }
 .finish-btn {
   background: black;
@@ -89,11 +91,16 @@ export default {
   border-radius: 3px;
   cursor: pointer;
   padding: 15px 60px;
+  border: none;
 }
 .finish-btn:active {
   color: black;
   background: white;
-  font-size: 20px;
+}
+.finish-btn:hover {
+  background-color: #971717;
+  color: white;
+  transition: 0.3s;
 }
 .finish-block {
   display: flex;
@@ -102,10 +109,12 @@ export default {
 .finish-body__title {
   font-size: 27px;
   padding-bottom: 30px;
+  cursor: pointer;
 }
 .finish-body__subtitle p {
   color: #6d6d6d;
   padding-bottom: 15px;
+  cursor: pointer;
 }
 .finish-text {
   display: flex;
@@ -120,15 +129,18 @@ export default {
 }
 .finish-text__image img {
   width: 100%;
+  cursor: pointer;
 }
 .finish-text__title {
   color: #6d6d6d;
   font-size: 15px;
   align-items: center;
+  cursor: pointer;
 }
 .finish-text__subtitle {
   color: #6d6d6d;
   font-size: 15px;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .finish-wrapper__text {

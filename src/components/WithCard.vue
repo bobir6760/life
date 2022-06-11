@@ -37,10 +37,12 @@ export default {
   object-fit: contain;
   width: 70px;
   height: 70px;
+  cursor: pointer;
 }
 .with-item__title {
   font-size: 22px;
   font-weight: bold;
+  cursor: pointer;
   margin-bottom: 10px;
 }
 .with-item__subtitle {

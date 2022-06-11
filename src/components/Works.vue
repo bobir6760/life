@@ -47,6 +47,11 @@ export default {
   font-size: 30px;
   text-transform: uppercase;
   margin-bottom: 50px;
+  cursor: pointer;
+}
+.works-title:hover {
+  text-decoration: underline crimson;
+  transition: 0.5s;
 }
 .works-card-wrapper {
   display: flex;

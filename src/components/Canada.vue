@@ -38,6 +38,10 @@ export default {
   text-transform: uppercase;
   font-size: 30px;
   padding-bottom: 20px;
+  cursor: pointer;
+}
+.canada-info__title:hover {
+  text-decoration: underline;
 }
 .canada-item {
   display: flex;
@@ -46,6 +50,7 @@ export default {
 }
 .canada-item__image img {
   width: 100%;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .canada-info__title {

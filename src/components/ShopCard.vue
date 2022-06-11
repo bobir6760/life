@@ -29,9 +29,14 @@ export default {
 }
 .shop-image img {
   width: 100%;
+  cursor: pointer;
 }
 .shop-title {
   font-size: 25px;
   padding: 20px 0;
+  cursor: pointer;
+}
+.shop-subtitle {
+  cursor: pointer;
 }
 </style>

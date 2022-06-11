@@ -77,6 +77,8 @@ export default {
   font-size: 40px;
   text-align: center;
   margin-bottom: 100px;
+  cursor: pointer;
+
 }
 .absolut-text {
   display: flex;
@@ -85,14 +87,20 @@ export default {
 }
 .absolut-text__subtitle {
   margin-bottom: 80px;
+  cursor: pointer;
+
 }
 .absolut-text__title {
   font-size: 25px;
+  cursor: pointer;
+
   font-weight: bold;
 }
 .absolute-text__title {
   font-size: 25px;
   font-weight: bold;
+  cursor: pointer;
+
 }
 .absolut-block {
   display: flex;
@@ -102,12 +110,16 @@ export default {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 15px;
+  cursor: pointer;
+
 }
 .absolut-block__subtitle {
   margin-bottom: 80px;
 }
 .absolut-image img {
   width: 100%;
+  cursor: pointer;
+
 }
 .absolute-button {
   display: flex;
@@ -119,12 +131,12 @@ export default {
   color: white;
   background-color: black;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 5px;
   border: none;
 }
-.absolut-btn:active {
-  color: black;
-  background-color: white;
+.absolut-btn:hover {
+  background-color: #971717;
+  transition: 0.5s;
 }
 @media screen and (max-width: 768px) {
   .absolut-text__title {

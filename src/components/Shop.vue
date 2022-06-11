@@ -56,6 +56,10 @@ export default {
   font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 60px;
+  cursor: pointer;
+}
+.shop-info__title:hover {
+  text-decoration: underline crimson;
 }
 .shop-wrapper-card {
   display: flex;
